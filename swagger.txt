@@ -1,0 +1,34 @@
+In general swagger helps in API development
+Tools which helps in developing APIs, making calls(interact) to APIs finally documenting APIs
+Swagger is an excellent tool for documenting APIs
+There are various ways for documenting it but most popular way is using swagger
+
+Documenting our spring boot swagger
+
+spring boot API					API consumer
+						the consumer will have the lot of questions
+						EX- what is the payload structure, Response structure & error condition etc.
+
+
+The quickest way to answer all questions is to prepare a document and write all the details of your APIs in the contract and hand-over to them.
+The problem is when the APIs will get updated
+Before REST(API technologies), SOAP is used and follows WSDL for documentation
+REST -- no formal documentation in specification
+Swagger automatically generates documentation based on meta-data in our code. What are the APIs, for what the APIs are used, API description or nodes
+By using this meta-data swagger build the documentation in various forms such as JSON, HTML
+If the API changes then the developer will only have to update the meta-data for the changed API
+
+How to add swagger to spring-boot Application?
+1. Get the swagger2 spring dependency
+Adding springfox dependency in pom.xml
+2. Enable swagger in our spring code
+Go to main application which have the main method(SwaggerConfig.java) and add the annotation "@EnableSwagger2"
+Also we need to add dependency for swagger-ui in pom.xml
+http://localhost:8082/swagger-ui.html
+WE CAN MAKE API CALLS IN OUR DOCUMENTATION DIRECTLY
+*3. Configuring Swagger
+*4. Adding details to annotations as APIs
+
+//Create a Spring Boot project
+Open pom.xml, initially it will have dependencies
+ 

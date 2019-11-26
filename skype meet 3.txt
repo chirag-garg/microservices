@@ -1,0 +1,25 @@
+application class
+controller
+postman to test microservice
+application.properties//for server details
+pom.xml//where we write all the dependencies
+
+try to connected database
+crud
+repository dao model
+pojo class
+model class
+light weight database
+
+database details
+@spring boot application
+@enablejparepositories
+swagger//hello world rest api
+create a microservice portal similar to this and share the link on some portal
+yamini or chandra will take the next meeting
+
+http://localhost:8082/v2/api-docs
+for xml format
+
+http://localhost:8082/swagger-ui.html
+for html format
